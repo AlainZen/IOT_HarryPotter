@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Site</title>
+    <link rel="stylesheet" href="css/log.css">
+    
+</head>
+<body>
+    <nav class="sidenav">
+        <a href="homepage.html"><button class="fill-bottom">Accueil</button></a>
+        <a href="cartes.html"><button class="fill-bottom">Cartes</button></a>
+        <a href="profile.html"><button class="fill-bottom">Profil</button></a>
+        <a href="login.html"><button class="fill-bottom">Connexion</button></a>
+        <a href="booster.html"><button class="fill-bottom">Boosters</button></a>
+    </nav>  
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crée un Compte</h1>
+                
+                <input type="text" placeholder="Pseudo">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button type="button" onclick="signUp()">S'inscrire</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Connection</h1>
+                
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Mot de Pass oublié ?</a>
+                <button button type="button" onclick="logIn()">Se Connecter</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Déja de retour jeune sorcier ?</h1>
+                    <p>Déja Inscrit? Connecte toi</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Bienvenue Jeune Sorcier</h1>
+                    <p>Vivez une experience unique a Poudlard en vous inscrivant</p>
+                    <button class="hidden" id="register">Inscrivez-vous</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

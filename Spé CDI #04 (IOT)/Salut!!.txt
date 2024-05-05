@@ -1,0 +1,12 @@
+Bonjour Monsieur,
+
+Je tiens tout d'abord à vous remercier pour cette semaine de cours et pour m'avoir aidé à résoudre mon problème de code.
+
+Je vous écris pour vous informer que, malheureusement, la led rouge ne fonctionnait pas correctement lors de mes nombreux tests sur le troisième exercice. J'ai donc du baisser la luminosité de certaines couleurs, comme celles de gryffondor et de poufsouffle, pour montrer que le code fonctionne malgré le problème.
+
+Je vous souhaite de passer une excellente journée.
+
+Merci encore
+
+Lien Breath Effect : https://youtube.com/shorts/gofTP0cUm3E?feature=share
+Lien IOT-HP : https://youtube.com/shorts/5e2e1EEABnM?feature=share

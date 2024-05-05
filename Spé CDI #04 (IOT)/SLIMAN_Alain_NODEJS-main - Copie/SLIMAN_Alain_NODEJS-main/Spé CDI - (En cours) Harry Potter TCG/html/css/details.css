@@ -1,0 +1,55 @@
+/* Styles de base pour la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container principal pour les détails de la carte */
+.card-detail {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Image de la carte */
+.card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Titre de la carte */
+.card-title {
+    font-size: 2rem;
+    color: #444;
+    margin-top: 1rem;
+}
+
+/* Description et autres détails de la carte */
+.card-info {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #666;
+    text-align: left;
+}
+
+/* Styling spécifique pour les liens */
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Petites marges pour les paragraphes pour une meilleure lecture */
+p {
+    margin: 0.5rem 0;
+}

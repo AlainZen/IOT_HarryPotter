@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age List</title>
+</head>
+<body>
+  <h1>Liste des âges</h1>
+  <ul id="age-list"></ul>
+
+  <script>
+    // Effectuer l'appel Fetch pour récupérer les données d'âge
+    fetch('http://localhost:3000/age')
+      .then(response => response.json())
+      .then(data => {
+        const ageList = document.getElementById('age-list');
+        // Parcourir les données et les afficher dans une liste non ordonnée
+        data.forEach(person => {
+          const listItem = document.createElement('li');
+          listItem.textContent = `${person.name} : ${person.age} ans`;
+          ageList.appendChild(listItem);
+        });
+      })
+      .catch(error => {
+        console.error('Erreur lors de la récupération des données :', error);
+      });
+  </script>
+</body>
+</html>
